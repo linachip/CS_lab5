@@ -1,0 +1,81 @@
+Windows 10 is installed						Failed
+Expected : "^[Ww][Ii][Nn][Dd][Oo][Ww][Ss] 10.+$"
+Found : 
+
+Check Windows Release						Failed
+Expected : "2009"
+Found : 
+
+18.8.7.1.1 Ensure 'Prevent installation of devices that match any of these device IDs' is set to 'Enabled'						Failed
+Expected : "1"
+Found : 
+
+Failed
+18.8.7.1.3 Ensure 'Prevent installation of devices that match any of these device IDs: Also apply to matching devices that are already installed.' is set to 'True' (checked)						Failed
+Expected : "1"
+Found : 
+
+18.8.7.1.4 Ensure 'Prevent installation of devices using drivers that match these device setup classes' is set to 'Enabled'						Failed
+Expected : "1"
+Found : 
+
+18.8.7.1.6 Ensure 'Prevent installation of devices using drivers that match these device setup classes: Also apply to matching devices that are already installed.' is set to 'True' (checked)						Failed
+Expected : "1"
+Found : 
+
+18.8.26.1 Ensure 'Enumeration policy for external devices incompatible with Kernel DMA Protection' is set to 'Enabled: Block All'						Failed
+Expected : "0"
+Found : 
+
+18.8.34.6.3 Ensure 'Allow standby states (S1-S3) when sleeping (on battery)' is set to 'Disabled'						Failed
+Expected : "0"
+Found : 
+
+18.8.34.6.4 Ensure 'Allow standby states (S1-S3) when sleeping (plugged in)' is set to 'Disabled'						Failed
+Expected : "0"
+Found : 
+
+18.9.11.1.1 Ensure 'Allow access to BitLocker-protected fixed data drives from earlier versions of Windows' is set to 'Disabled'						Failed
+Expected : "<none>"
+Found : 
+
+18.9.11.1.2 Ensure 'Choose how BitLocker-protected fixed drives can be recovered' is set to 'Enabled'						Failed
+Expected : "1"
+Found : 
+
+18.9.11.1.3 Ensure 'Choose how BitLocker-protected fixed drives can be recovered: Allow data recovery agent' is set to 'Enabled: True'						Failed
+Expected : "1"
+Found : 
+
+18.9.11.1.4 Ensure 'Choose how BitLocker-protected fixed drives can be recovered: Recovery Password' is set to 'Enabled: Allow 48-digit recovery password'						Failed
+Expected : "2"
+Found : 
+
+18.9.11.1.5 Ensure 'Choose how BitLocker-protected fixed drives can be recovered: Recovery Key' is set to 'Enabled: Allow 256-bit recovery key'						Failed
+Expected : "2"
+Found : 
+
+18.9.11.1.6 Ensure 'Choose how BitLocker-protected fixed drives can be recovered: Omit recovery options from the BitLocker setup wizard' is set to 'Enabled: True'						Failed
+Expected : "1"
+Found : 
+
+18.9.11.1.7 Ensure 'Choose how BitLocker-protected fixed drives can be recovered: Save BitLocker recovery information to AD DS for fixed data drives' is set to 'Enabled: False'						Failed
+Expected : "0"
+Found : 
+
+18.9.11.1.8 Ensure 'Choose how BitLocker-protected fixed drives can be recovered: Configure storage of BitLocker recovery information to AD DS' is set to 'Enabled: Backup recovery passwords and key packages'						Failed
+Expected : "1"
+Found : 
+
+18.9.11.1.9 Ensure 'Choose how BitLocker-protected fixed drives can be recovered: Do not enable BitLocker until recovery information is stored to AD DS for fixed data drives' is set to 'Enabled: False'						Failed
+Expected : "0"
+Found : 
+
+18.9.11.1.10 Ensure 'Configure use of hardware-based encryption for fixed data drives' is set to 'Disabled'						Failed
+Expected : "0"
+Found : 
+
+18.9.11.1.11 Ensure 'Configure use of passwords for fixed data drives' is set to 'Disabled'						Failed
+Expected : "0"
+Found : 
+
